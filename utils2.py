@@ -5,7 +5,7 @@ from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed, ThreadPoolExecutor
 import matplotlib.patheffects as PathEffects
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.neighbors import NearestNeighbors, LSHForest
+from sklearn.neighbors import NearestNeighbors, LSHForest, BallTree
 import IPython
 from IPython.display import display, Audio
 from numpy.random import normal
